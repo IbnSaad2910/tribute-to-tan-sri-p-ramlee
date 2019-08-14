@@ -1,0 +1,162 @@
+html {
+  font-size: 10px;
+}
+#main {
+  margin: 5rem auto;
+  padding: 5rem;
+  width: 100%;
+  min-width: 460px;
+}
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  background-color: #795548;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 5rem auto;
+    padding: 5rem;
+    width: 100%;
+    min-width: 100%;
+  }
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+  .image-other {
+    width: 100%;
+    max-width: 100%;
+  }
+  #img-div {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  #main {
+    max-width: 768px;
+  }
+  ul li {
+    font-size: 2rem;
+  }
+  h2 {
+  font-size: 3.75rem;
+  }
+  a {
+    color: #477ca7;
+    font-size: 2rem;
+  }
+  #img-caption {
+    margin: 15px 0 5px 0;
+    color: #eee;
+    font-size: 2rem;
+  }
+  .caption-other {
+    text-align: center;
+    margin: 15px 0 5px 0;
+    color: #333;
+    font-style: italic;
+    font-size: 2rem;
+  }
+  #headline {
+    margin: 50px 0;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.5em;
+  }
+}
+
+h2 {
+  font-size: 3.25rem;
+}
+
+a {
+  color: #477ca7;
+}
+
+a:visited {
+  color: #74638f;
+}
+
+#image {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+.image-other {
+  display: block;
+  margin: 0 auto;
+  width: 100%
+  border: 7.5px ridge #7a7a7a;
+  box-shadow: 0px 5px 6px 0px black;
+  max-width: 600px;
+}
+
+#img-div {
+  border-radius: 10px;
+  box-shadow: 0px 5px 6px 0px black;
+  padding: 30px 10px;
+  margin: 0 auto;
+  border: 0.5px solid rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 750px;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+  color: #eee;
+}
+
+.caption-other {
+  text-align: center;
+  margin: 15px 0 5px 0;
+  color: #333;
+  font-style: italic;
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.5em;
+}
+
+ul {
+  width: 100%;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  margin: 16px 0;
+}
+
+#title {
+  background-color: #7a7a7a;
+  font-style: italic;
+  color: #eee;
+  max-width: 400px;
+  border-radius: 15px;
+  box-shadow: 0px 5px 6px 0px black;
+  margin: 25px auto;
+  border: 0.5px solid rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+
+#quote {
+  box-shadow: 0px 5px 6px 0px black;
+}
